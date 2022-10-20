@@ -1,0 +1,125 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(#191919, #0a0a0a);
+  font-family: "Noto Sans";
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+}
+p {
+  color: #ffffff;
+}
+.h {
+  color: #ffffff;
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.grid-container-1-1-1 {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-container-2-1-1 {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.grid-container-1-2-1 {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-container-1-1-2 {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.grid-container-200px-1fr-auto {
+  display: grid;
+  gap: 0.5em;
+  margin: 0.5em;
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.navbar {
+  overflow: hidden;
+  text-align: center;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.navbar a {
+  float: center;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  padding-left: 10px;
+  transition: 0.15s;
+  padding-right: 10px;
+  transition: 0.15px;
+}
+.navbar a:hover {
+  color: #1f1f1f;
+  background-color: #00eb4a;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sectiondiv {
+  border-radius: 10px;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+  background-color: #232323;
+}
+.projectcard {
+  border-radius: 10px;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+  background-color: #232323;
+  aspect-ratio: 0.75;
+  transform: scale(0.9);
+  transition: 0.25;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0);
+  transition: 0.25s;
+}
+.projectcard:hover {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.9);
+  transform: scale(1);
+}
